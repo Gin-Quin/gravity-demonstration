@@ -13,36 +13,36 @@ async function seed() {
 				create: [
 					{
 						name: 'bulbasaur',
-						image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
+						image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
 					},
 					{
 						name: 'ivysaur',
-						image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png'
-					}
-				]
-			}
-		}
+						image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png',
+					},
+				],
+			},
+		},
 	});
 
 	await prisma.pokemon.create({
 		data: {
 			name: 'venusaur',
-			image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png'
-		}
+			image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png',
+		},
 	});
 
 	await prisma.pokemon.create({
 		data: {
 			name: 'charmander',
-			image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png'
-		}
+			image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
+		},
 	});
 
 	await prisma.pokemon.create({
 		data: {
 			name: 'charmeleon',
-			image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png'
-		}
+			image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
+		},
 	});
 }
 

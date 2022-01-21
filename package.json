@@ -17,6 +17,7 @@
 	},
 	"devDependencies": {
 		"@digitak/esrun": "*",
+		"@prisma/client": "^3.8.1",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
@@ -26,16 +27,20 @@
 		"eslint-plugin-svelte3": "^3.2.1",
 		"prettier": "^2.4.1",
 		"prettier-plugin-svelte": "^2.4.0",
+		"prisma": "^3.8.1",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.2.6",
 		"svelte-preprocess": "^4.9.4",
 		"tslib": "^2.3.1",
-		"typescript": "^4.4.3",
-		"@prisma/client": "^3.8.1",
-		"prisma": "^3.8.1"
+		"typescript": "^4.4.3"
 	},
 	"type": "module",
 	"prisma": {
 		"schema": "src/prisma/schema.prisma"
+	},
+	"dependencies": {
+		"@digitak/gravity": "^0.0.13",
+		"@digitak/gravity-prisma": "^0.0.13",
+		"@digitak/gravity-svelte": "^0.0.13"
 	}
 }
