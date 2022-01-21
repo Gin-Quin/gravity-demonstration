@@ -38,9 +38,5 @@
 	"prisma": {
 		"schema": "src/prisma/schema.prisma"
 	},
-	"dependencies": {
-		"@digitak/gravity": "^0.0.13",
-		"@digitak/gravity-prisma": "^0.0.13",
-		"@digitak/gravity-svelte": "^0.0.13"
-	}
+	"dependencies": {}
 }
