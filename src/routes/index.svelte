@@ -8,13 +8,6 @@
 
 	const user = useApi().user.findFirst();
 	const pokemons = useApi().pokemon.findMany();
-
-	api.pokemon.update({
-		where: { id: 5 },
-		data: {
-			image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
-		},
-	});
 </script>
 
 <main class="container">

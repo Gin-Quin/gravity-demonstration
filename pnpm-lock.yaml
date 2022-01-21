@@ -2,9 +2,9 @@ lockfileVersion: 5.3
 
 specifiers:
   '@digitak/esrun': '*'
-  '@digitak/gravity': ^0.0.13
-  '@digitak/gravity-prisma': ^0.0.13
-  '@digitak/gravity-svelte': ^0.0.13
+  '@digitak/gravity': ^0.0.15
+  '@digitak/gravity-prisma': ^0.0.15
+  '@digitak/gravity-svelte': ^0.0.15
   '@prisma/client': ^3.8.1
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
@@ -23,9 +23,9 @@ specifiers:
   typescript: ^4.4.3
 
 dependencies:
-  '@digitak/gravity': 0.0.13
-  '@digitak/gravity-prisma': 0.0.13_12af5e1d92268c831e6d3c58e4b79861
-  '@digitak/gravity-svelte': 0.0.13_svelte@3.46.2
+  '@digitak/gravity': 0.0.15
+  '@digitak/gravity-prisma': 0.0.15_12af5e1d92268c831e6d3c58e4b79861
+  '@digitak/gravity-svelte': 0.0.15_svelte@3.46.2
 
 devDependencies:
   '@digitak/esrun': 3.1.2
@@ -82,28 +82,28 @@ packages:
       esbuild: 0.12.29
     dev: true
 
-  /@digitak/gravity-prisma/0.0.13_12af5e1d92268c831e6d3c58e4b79861:
-    resolution: {integrity: sha512-9uiaoA1mm0y3pDwJqBwZ7eUjJau8tHjSp5GI8yid4ReNp7LGFRm+JIklIrMp6hbloJa4ifiRVFwEnuzmI2maRg==}
+  /@digitak/gravity-prisma/0.0.15_12af5e1d92268c831e6d3c58e4b79861:
+    resolution: {integrity: sha512-yzSr8OS70beFhA9zCYvX/xPZ/SeR4OmBcHCaDti1Sv0Kzc6gH2hrOrJIt8cwHCkiAjhFf/5oVngLbDZzsz2fIA==}
     peerDependencies:
       '@prisma/client': ^3
       prisma: ^3
     dependencies:
-      '@digitak/gravity': 0.0.13
+      '@digitak/gravity': 0.0.15
       '@prisma/client': 3.8.1_prisma@3.8.1
       prisma: 3.8.1
     dev: false
 
-  /@digitak/gravity-svelte/0.0.13_svelte@3.46.2:
-    resolution: {integrity: sha512-x3+FWHRUg61l0lNYAAblKHsPd2M7EcIPXZVrwjIWPcQm/o3Fdcbx6By6fYXtwgBogwQxVrrBQPvOz8OpRa/o/w==}
+  /@digitak/gravity-svelte/0.0.15_svelte@3.46.2:
+    resolution: {integrity: sha512-7jkrptWVQySka402ca/3n25UpQNQyN2WCylQCT3cWAE0914CU/b4DblC6fyC89a9xe5jgDr0PsMrWKDZ4CuWDg==}
     peerDependencies:
       svelte: ^3
     dependencies:
-      '@digitak/gravity': 0.0.13
+      '@digitak/gravity': 0.0.15
       svelte: 3.46.2
     dev: false
 
-  /@digitak/gravity/0.0.13:
-    resolution: {integrity: sha512-40NKBcvR/hj/SwwP07+ucNJUmGmsVWIr5HjWvqFW80FbXMNNtYUV+WokbOizCZKXBbHWTjNRKeFZilQpMEoq8A==}
+  /@digitak/gravity/0.0.15:
+    resolution: {integrity: sha512-1hfdB1a+bKnCK4IblZvBscGpX6wQohmrYRLCkABQmpF9UcMEsFymFXsC2tvY/638ilGZVMHSaur9WsKlRnc5ew==}
     dependencies:
       '@digitak/bunker': 3.2.1
       '@digitak/print': 1.1.4
